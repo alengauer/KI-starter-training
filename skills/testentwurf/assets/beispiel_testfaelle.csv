@@ -1,0 +1,9 @@
+ID;Klasse;Eingabe;Soll-Laenge;Erwartung;Quelle
+TF-01;K1 gültig, Grenze 8 Zeichen;Abcdef1!;8;Passwort wird angenommen;UC 1.2.1
+TF-02;K2 zu kurz, Grenze 7 Zeichen;Abcde1!;7;Fehlermeldung (Text nicht spezifiziert);UC 1.2.1
+TF-03;K3 ohne Sonderzeichen;Sneakers1;8;Fehlermeldung (Text nicht spezifiziert);UC 1.2.1
+TF-04;K4 ohne Großbuchstabe;sneaker1!;9;Fehlermeldung (Text nicht spezifiziert);UC 1.2.1
+TF-05;K5 ohne Ziffer;Sneakers!;9;Fehlermeldung (Text nicht spezifiziert);UC 1.2.1
+TF-06;K1 gültig, einziger Großbuchstabe ist ein Umlaut;Äpfelbaum7#;11;Passwort wird angenommen;UC 1.2.1, F04 [A1]
+TF-07;K2 zu kurz, mit Emoji;Ab1!😀😀;6;Fehlermeldung (Text nicht spezifiziert);UC 1.2.1 [A2]
+TF-08;K6 leer;<leer>;0;Fehlermeldung (Text nicht spezifiziert);UC 1.2.1
