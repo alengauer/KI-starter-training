@@ -1,0 +1,27 @@
+# Abhängigkeiten
+node_modules/
+
+# Build-Ergebnisse
+client/dist/
+*.tsbuildinfo
+
+# Lokale Laufzeitdaten: Datenbank und Datei-Postfach
+server/data/
+
+# Testergebnisse
+test-results/
+playwright-report/
+blob-report/
+coverage/
+
+# Ausgaben der Batch-Läufe (tools/testfaelle-batch.sh)
+out/
+
+# Zugangsdaten und lokale Einstellungen
+.env
+.env.*
+.claude/settings.local.json
+
+# Betriebssystem, Editor, Protokolle
+.DS_Store
+*.log

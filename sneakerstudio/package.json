@@ -1,0 +1,24 @@
+{
+  "name": "sneakerstudio",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.15"
+  },
+  "workspaces": [
+    "shared",
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "typecheck": "npm run typecheck --workspaces --if-present && tsc -p e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^24.13.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.2"
+  }
+}

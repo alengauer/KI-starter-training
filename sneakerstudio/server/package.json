@@ -1,0 +1,17 @@
+{
+  "name": "@sneakerstudio/server",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.ts",
+    "dev": "node --watch src/main.ts",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@sneakerstudio/shared": "*",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6"
+  }
+}
